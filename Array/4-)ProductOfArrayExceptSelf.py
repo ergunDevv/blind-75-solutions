@@ -4,8 +4,6 @@
 # APPROUCH
 # Our approuch to this question is defining result array with 1's length of the array's length.
 # Beacuse of question ask us return an array result[i] is equal to the product of all the elements of nums except arr[i] that's why we will define prefix and postfix integers than multiply the result[i] with prefix and postfix.Than multiply prefix and postfix's values with nums[i]
-
-
 def ProductOfArrayExceptSelf(arr):
     # Defining result array with 1's length of an array.
     result = [1] * (len(arr))

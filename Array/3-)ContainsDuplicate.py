@@ -1,3 +1,4 @@
+
 def containsDuplicate(arr):
     duplicateHashMap = {}
 
